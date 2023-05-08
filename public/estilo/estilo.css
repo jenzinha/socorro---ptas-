@@ -1,0 +1,19 @@
+body{
+    background-color: #A877FA;
+}
+
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+
+  a{
+    text-decoration: none;
+    color: blueviolet;
+  }
+  h1{
+    color: white;
+  }
+  

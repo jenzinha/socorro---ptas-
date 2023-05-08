@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/estilo/estilo.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <hr><h3>Formulario</h3></hr>
+
+<form method="post" action="/pessoas/criar">
+
+    <label for="nome">Nome</label> 
+    <input type="text" name="nome" placeholder="Digite seu nome" required /> 
+    <hr></hr>
+    <label for="soobrenome">Sobrenome</label> 
+    <input type="text" name="sobrenome" placeholder="Digite seu sobrenome" required /> 
+    <hr></hr>
+    <label for="idade">Idade</label> 
+    <input type="number"name="idade" placeholder="Informe sua idade" required /> 
+    <hr></hr>
+    <input type="submit" value="Enviar" /> 
+    <hr></hr>
+</form>
+<a href="/pessoas"> Cancelar </a>
+
+</body>
+</html>
+
