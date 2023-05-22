@@ -20,8 +20,12 @@
         <div>
             <%= pessoa.idade %>
         </div>
+        <div>
+        <a href="/pessoas/delete?id=<%=pessoa.id%>"> Deletar </a>
+    </div>
     <% }) %>
     </div>
+    
     <a href="/pessoas/criar"> Cadastrar </a>
 </body>
 </html>

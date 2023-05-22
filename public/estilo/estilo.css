@@ -4,16 +4,43 @@ body{
 
   .grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     margin-left: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  div{
+    margin-left: 10px;
   }
 
   a{
     text-decoration: none;
-    color: blueviolet;
+    color: purple;
+    display: grid;
+    justify-content: center;
   }
   h1{
     color: white;
+    display: grid;
+    justify-content: center;
+  }
+form{
+  border: 1 solid black;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  }
+  .socorro{
+    display: grid;
+    justify-content: center;
+  }
+  label{
+    display: grid;
+    justify-content: center;
+  }
+  .botao{
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
   }
   

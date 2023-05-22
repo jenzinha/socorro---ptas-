@@ -10,21 +10,22 @@
 </head>
 <body>
 
-    <hr><h3>Formulario</h3></hr>
+    <h1>Formulario</h1>
 
-<form method="post" action="/pessoas/criar">
-
+<form method="post" action="/pessoas/criar" class="socorro">
+<div>
     <label for="nome">Nome</label> 
     <input type="text" name="nome" placeholder="Digite seu nome" required /> 
-    <hr></hr>
+</div>
     <label for="soobrenome">Sobrenome</label> 
     <input type="text" name="sobrenome" placeholder="Digite seu sobrenome" required /> 
-    <hr></hr>
+<div>
     <label for="idade">Idade</label> 
     <input type="number"name="idade" placeholder="Informe sua idade" required /> 
-    <hr></hr>
+</div>
+<div class="botao">
     <input type="submit" value="Enviar" /> 
-    <hr></hr>
+</div>
 </form>
 <a href="/pessoas"> Cancelar </a>
 
