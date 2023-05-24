@@ -1,5 +1,6 @@
 body{
     background-color: #A877FA;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
   .grid {
@@ -8,6 +9,13 @@ body{
     margin-left: 5px;
     margin-bottom: 20px;
     justify-content: center;
+    border: 2px solid white;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px white;
   }
   div{
     margin-left: 10px;
@@ -16,31 +24,51 @@ body{
   a{
     text-decoration: none;
     color: purple;
-    display: grid;
-    justify-content: center;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
   }
   h1{
     color: white;
     display: grid;
     justify-content: center;
+    text-shadow: 10px 10px 10px;
   }
 form{
-  border: 1 solid black;
   display: block;
   padding-bottom: 10px;
   padding-top: 10px;
+  border: 1px solid white;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px white;
   }
   .socorro{
     display: grid;
     justify-content: center;
+    margin-top: 50px;
+    color: white;
   }
   label{
-    display: grid;
-    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    
   }
   .botao{
     margin-top: 10px;
+    background-color: blueviolet;
+    color: white;
+  }
+  input{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: blueviolet;
+    padding: 5px;
     display: grid;
     justify-content: center;
+    box-shadow: 10px 10px 10px white;
   }
+  
   
